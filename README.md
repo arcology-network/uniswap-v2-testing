@@ -26,7 +26,7 @@
 
 ## 1. Introduction
 
-This document shows you how to compile, deploy and run [Uniswap V2](https://github.com/Uniswap) on an Arcology testnet. If you are only interested in trying Arcology testnet out without diving into specific technical details, then **[please check this document out for an easier start.](./uniswap-v2-test-scripts.md)**
+This document shows you how to compile, deploy and run [Uniswap V2](https://github.com/Uniswap) on an Arcology testnet.If you are only interested in trying Arcology testnet out without diving into specific technical details, then **[please check this document out for an easy start.](./uniswap-v2-test-scripts.md)**
 
 ## 2. Get the Source Code
 
