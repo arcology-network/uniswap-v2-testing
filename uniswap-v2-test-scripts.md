@@ -27,7 +27,7 @@ If the Testnet node IP address is `https://192.168.1.103:8080`, **in the [client
 
 ```sh
 cd uniswap
-python deploy.py http://192.168.1.103:8080 131aea410081ac4e0e892ff8e2d0a433ec100fcd31bae40bcfe3dae3aceeb4f0
+python deploy.py http://192.168.1.103:8080 134aea740081ac7e0e892ff8e5d0a763ec400fcd34bae70bcfe6dae3aceeb7f0
 ```
 
 ## 3. Mint Tokens
