@@ -27,7 +27,7 @@ If the Testnet node IP address is `https://192.168.1.103:8080`, **in the [client
 
 ```sh
 cd uniswap
-python deploy.py http://192.138.1.103:8080 131aea410081ac4e0e892ff8e2d0a433ec100fcd31bae40bcfe3dae3aceeb4f0
+python deploy.py http://192.168.1.103:8080 131aea410081ac4e0e892ff8e2d0a433ec100fcd31bae40bcfe3dae3aceeb4f0
 ```
 
 ## 3. Mint Tokens
@@ -36,7 +36,7 @@ python deploy.py http://192.138.1.103:8080 131aea410081ac4e0e892ff8e2d0a433ec100
 
 
 ```sh
-python sendtxs.py http://192.138.1.103:8080 data/uniswap_v2/token1_mint_200.out
+python sendtxs.py http://192.168.1.103:8080 data/uniswap_v2/token1_mint_200.out
 ```
 
 ![alt text](./img/uniswap-token1-mint-200.png)
@@ -44,7 +44,7 @@ python sendtxs.py http://192.138.1.103:8080 data/uniswap_v2/token1_mint_200.out
 ### 3.2. Mint the Second Token
 
 ```sh
-python sendtxs.py http://192.138.1.103:8080 data/uniswap_v2/token2_mint_200.out
+python sendtxs.py http://192.168.1.103:8080 data/uniswap_v2/token2_mint_200.out
 ```
 
 ![alt text](./img/uniswap-token2-mint-200.png)
@@ -54,24 +54,24 @@ python sendtxs.py http://192.138.1.103:8080 data/uniswap_v2/token2_mint_200.out
 ### 4.1. The First Token
 
 ```sh
-python sendtxs.py http://192.138.1.103:8080 data/uniswap_v2/token1_approve_200.out
+python sendtxs.py http://192.168.1.103:8080 data/uniswap_v2/token1_approve_200.out
 ```
 
 ### 4.2. The Second Token
 
 ```sh
-python sendtxs.py http://192.138.1.103:8080 data/uniswap_v2/token2_approve_200.out
+python sendtxs.py http://192.168.1.103:8080 data/uniswap_v2/token2_approve_200.out
 ```
 
 ## 5. Add to the Liquidity Pool
 
 ```sh
-python sendtxs.py http://192.138.1.103:8080 data/uniswap_v2/add_liquidity_200.out
+python sendtxs.py http://192.168.1.103:8080 data/uniswap_v2/add_liquidity_200.out
 ```
 
 ## 6. Start Token Swap
 
 ```sh
-python sendtxs.py http://192.138.1.103:8080 data/uniswap_v2/swap_200.out
+python sendtxs.py http://192.168.1.103:8080 data/uniswap_v2/swap_200.out
 ```
 
