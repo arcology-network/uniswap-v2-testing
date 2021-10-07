@@ -30,6 +30,10 @@ cd uniswap
 python deploy.py http://192.168.1.103:8080 134aea740081ac7e0e892ff8e5d0a763ec400fcd34bae70bcfe6dae3aceeb7f0
 ```
 
+If Everthing works correctly, you should see somthing like the below
+
+![alt text](./img/uniswap-deployment-container-sciprt.png)
+
 ## 3. Mint Tokens
 
 ### 3.1. Mint the First Token
